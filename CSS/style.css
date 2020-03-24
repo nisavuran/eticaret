@@ -116,3 +116,52 @@ html,body{
 .footer .contact-form{
     text-align: center;
 }
+
+.nav-link img{
+    margin: auto;
+    display: block;
+}
+
+a {
+    color: #d3d3d3;
+}
+
+.footer-content h6 {
+    font-weight: bold;
+}
+.bottom-navbar {
+    text-align: center;
+    display: flex;
+}
+
+.bottom-navbar ul{
+    width: 80%;
+    text-align: center;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bottom-navbar li{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* .navbar-light .navbar-nav .nav-link{
+    float: left;
+} */
+
+.bottom-navbar .nav-link:hover{
+    background-color: #cfcccc;
+}
+
+.top-navbar-item {
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.top-navbar {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}

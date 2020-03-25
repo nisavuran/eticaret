@@ -16,6 +16,10 @@ html,body{
 .container {
     padding: 10px 0px 10px 0px;
 }
+
+.container img {
+    max-width: 100%;
+}
   
 .social-menu {
     margin: auto;

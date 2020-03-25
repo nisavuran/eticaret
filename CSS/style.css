@@ -13,10 +13,9 @@ html,body{
     min-height:500px;
 }
 
-  .container {
-    padding: 2px 16px;
-    max-height: 15px;
-  }
+.container {
+    padding: 10px 0px 10px 0px;
+}
   
 .social-menu {
     margin: auto;
@@ -136,8 +135,8 @@ a {
 
 .bottom-navbar ul{
     width: 80%;
-    text-align: center;
-    display: flex;
+    text-align: center; 
+    /* display: flex; */
     margin-left: auto;
     margin-right: auto;
 }
@@ -152,7 +151,7 @@ a {
 } */
 
 .bottom-navbar .nav-link:hover{
-    background-color: #cfcccc;
+    background-color: #fff;
 }
 
 .top-navbar-item {
@@ -164,4 +163,52 @@ a {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+}
+
+.dropdown-content {
+    left: 0px;
+    right: 0px;
+    height: auto;
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: max-content;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    padding: 0px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    background-color: #fff;
+}
+ul.drop-menu-item {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    width: auto;
+    float: left;
+    height: auto;
+}
+
+.drop-menu-item li {
+    display: block;
+}
+
+li.drop-menu {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content a:hover {background-color: #fff;}
+
+li.drop-menu:hover .dropdown-content {display: block;}
+
+li.drop-menu:hover a.drop-link {background-color: #fff;}
+
+.main-container {
+    width: 100%;
 }

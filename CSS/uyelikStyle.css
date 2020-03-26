@@ -92,18 +92,10 @@ body{
   width: 100%;
 }
 .leftside{
+  
   background-color: gainsboro ;
   position: relative;
 }
 .rightside{
   background-color:gainsboro ;
-}
-.disc{
-  height: 16em;
-  width: 16em;
-  border-radius:50% ;
-  background-color: white;
-  position: absolute;
-  top:50%; right:50%;
-  transform: translateY(-50%);
 }

@@ -10,17 +10,44 @@ html,body{
    min-height:500px;
 }
 .main-content{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
     min-height:500px;
 }
 
 .container {
+    
     padding: 10px 0px 10px 0px;
 }
 
 .container img {
-    max-width: 100%;
+    min-width: 100%;
 }
-.slidershow{
+
+/* fotolar aynı boya gelince silincek */
+img.d-block { 
+    height: 586px;
+}
+
+.carousel-indicators li {
+    background-color: #000000;
+}
+
+.carousel-control-next {
+    /* background-color: #000000;
+    opacity: 0.1; */
+}
+ 
+.carousel-control-prev {
+    /* background-color: #000000;
+    opacity: 0.1; */
+}
+
+.carousel-control-prev-icon {
+    shadow
+}
+/* .slidershow{
     width:700px;
     height: 400px;
     overflow: hidden;
@@ -53,9 +80,11 @@ input[name="r"]{
     visibility: hidden;
 }
 .slidershow{
-    width:500%;
+    width:100%;
     height: 100%;
-    display: flex;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .slide{
     width:20%;
@@ -76,7 +105,7 @@ input[name="r"]{
     }
     #r4:checked ~ .s1{
         margin-left:-60%;
-    }
+    } */
 
 .social-menu ul {
     /* position: absolute; */

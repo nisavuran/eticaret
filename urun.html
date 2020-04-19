@@ -6,6 +6,7 @@
     <title>Marché Urun </title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- <link rel="stylesheet" href="CSS/style.css"> -->
 
 </head>
@@ -14,6 +15,15 @@
   <div id="wrapper" style="background-color: white">
     <div class="main-content bg-light">
       <div class="container w-75">
+         <!-- BREADCRUMB -->          
+         <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Anasayfa</a></li>
+            <li class="breadcrumb-item"><a href="#">Kadın</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Ayakkabı</li>
+          </ol>
+        </nav>
+        <!-- BREADCRUMB -->
         <div class="row">
           <div class="col">
             <div class="pb-3">
@@ -58,6 +68,61 @@
             <button type="button" class="btn btn-outline-secondary">42</button>
             <p class="card-text"><small class="text-muted">*Ürünün bedeni TR ölçülerindedir.</small></p>
               <a href="#" class="btn btn-dark d-block mr-auto w-75">Sepete Ekle</a>
+              <p class="card-text"><small class="text-muted">*Daha fazla bilgi için inceleyiniz.</small></p>
+              <div id="accordion">
+                <div class="card">
+                  <div class="card-header" id="headingOne">
+                    <h5 class="mb-0">
+                      <button class="btn btn-light font-weight-light" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                        Teslimat ve İade
+                      </button>
+                    </h5>
+                  </div>
+              
+                  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                    <div class="card-body">
+                      30 gün içerisinde iade hakkı: İade etmek istediğiniz ürünleri, iade formunu (faturanızın arkasında) doldurarak, siparişi teslim aldığınız tarihten itibaren 30 gün içerisinde ürünle birlikte geri gönderebilirsiniz. 
+                      Ücretsiz iade hakkı: İade etmek istediğiniz ürünleri, Yurtiçi Kargo ile gönderdiğiniz takdirde, kargo ücreti alınmayacaktır.  
+                      Geri ödemeler: İade ettiğiniz ürünler iade şartlarına uyduğu takdirde, Marchegeri ödemeleri 2 iş günü içerisinde bankaya iletmektedir. Bundan sonraki süreci bankanızdan takip edebilirsiniz.
+                      Destek için onlinedestek@marche.com adresine e-posta gönderebilirsiniz veya 444 4 444 numaralı telefonu arayarak Marche Müşteri Hizmetleri'ne ulaşabilirsiniz.
+                      Gönderim: Siparişlerinizin teslimi sadece Türkiye sınırları içerisine yapılmakta olup, gönderim alanları Yurtiçi Kargo gönderim ağıyla sınırlıdır.
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingTwo">
+                    <h5 class="mb-0">
+                      <button class="btn btn-light font-weight-light" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                       Ücretsiz İade
+                      </button>
+                    </h5>
+                  </div>
+                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                    <div class="card-body">
+                      Marche.com, online alışverişte Marche koşulsuz müşteri memnuniyeti ilkesini hedefler. 200 TL üzeri siparişlerinizde kargo ücretsizdir.
+                      Ücretsiz Kargo: 200 TL üzeri siparişleriniz Yurtiçi Kargo ile ücretsiz gönderilir. Siparişleriniz kayıtlı teslimat adresinize kargo ile 7 iş günü içerisinde gönderilecektir. 
+                      Siparişinizi vermeden önce teslimat adresinizi lütfen kontrol ediniz.
+                      Ücretsiz İade Kargosu:Satın aldığınız ürün veya ürünleri iade etmek istiyorsanız, 30 gün içerisinde Yurtiçi Kargo ile ücretsiz gönderebilirsiniz.
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                      <button class="btn btn-light font-weight-light" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        CARD MARCHE
+                      </button>
+                    </h5>
+                  </div>
+                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                    <div class="card-body">
+                      Card Marche ile marche.com’da hem puan kazanabilir hem de puanınızı kullanabilirsiniz. 
+                      İndirimsiz ürün alışverişlerinizde segmentiniz üzerinden puan kazanabilirsiniz.
+                      Taksitli alışverişlerinizde segment puanının yarısı Card Marche'ye yüklenecektir.
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -73,6 +138,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
+ 
 </body>
 
 </html>

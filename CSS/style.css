@@ -246,7 +246,6 @@ a {
 }
 
 .dropdown-content {
-    left: 0px;
     right: 0px;
     height: auto;
     display: none;

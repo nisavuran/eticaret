@@ -1,0 +1,18 @@
+urun-ekle.html
+Anasayfa.html
+admin.html
+bize-sorun.html
+favoriler-dolu.html -> bu kullanılacak
+Favoriler.html -> favoriler boşsa kullanılacak metin burada
+kullanici-duzenle.html
+kullanici-liste.html
+kullanici.html
+sepetim-dolu.html -> bu kullanılacak
+Sepetim.html -> sepet boşsa kullanılacak metin burada
+sıkca-sorulan-sorular.html
+ucretsiz-kargo-ve-iade.html
+urun-ekle.html
+urun-liste.html
+urun.html
+urunler.html
+Uyelik.html
